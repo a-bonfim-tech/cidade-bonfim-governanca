@@ -1,12 +1,16 @@
 title: "Cidade Bonfim"
 description: "Sistema de Governança TPE + IAM + Dreieinheit"
-theme: minima
+theme: null
 
-# Páginas que aparecem no menu do topo
-header_pages:
-  - index.md
-  - INDEX-CIDADE-BONFIM.md
+collections:
+  pages:
+    output: true
 
-# Opções visuais básicas
-show_excerpts: false
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+
+url: "https://a-bonfim-tech.github.io"
+baseurl: "/cidade-bonfim-governanca"
+
