@@ -155,3 +155,14 @@ Tudo que estiver neste repositório passa automaticamente por:
 Consistência
 
 Cuidado
+
+---
+
+## 📄 PDFs da Cidade Bonfim
+
+- [Manifesto – Cidade Bonfim](arquivos/pdfs/cidade_bonfim_manifesto.pdf)  
+- [Rituais – Cidade Bonfim](arquivos/pdfs/cidade_bonfim_rituais.pdf)  
+- [Sistemas – Cidade Bonfim](arquivos/pdfs/cidade_bonfim_sistemas.pdf)  
+- [C3 Bonfim – Infraestrutura Simbólica](arquivos/pdfs/cidade_bonfim_c3_bonfim.pdf)  
+- [Símbolos e Mapas – Cidade Bonfim](arquivos/pdfs/cidade_bonfim_simbolos.pdf)  
+
