@@ -1,0 +1,27 @@
+# Constituição Pessoal – Cidade Bonfim
+
+A Constituição Pessoal Bonfim é o documento raiz da identidade, da governança interna e da forma como o “Eu Bonfim” se organiza perante:
+
+- os três Coletivos Donos (3C),  
+- a Santíssima Auditoria,  
+- a malha simbólica da Cidade Bonfim,  
+- o mundo factual (trabalho, estudo, dinheiro, redes).
+
+## Princípios de base
+
+1. **TPE** – Tecnologia, Pessoas e Estratégia caminham juntas.  
+2. **IAM** – Identidade, Acesso e Monitoramento: nada entra ou sai sem passar por esses três filtros.  
+3. **Dreieinheit** – Trindade simbólica que sustenta o sistema e aplica o selo TÜV.  
+4. **Integração simbólico-factual** – Nada existe só no imaginário: tudo precisa ter ponto de ancoragem na vida real (estudo, código, documento, repositório).  
+5. **Patch diário** – Atualização constante do sistema interno, com log de falhas e aprendizados.
+
+## Estrutura
+
+- Preâmbulo – quem é o Eu Bonfim.  
+- Governança TPE – como decisões são tomadas.  
+- Dreieinheit – camada superior de auditoria.  
+- IAM Bonfim – como a identidade é autenticada e atualizada.  
+- Regras internas – o que nunca pode ser quebrado.  
+- Identidade multitribo – como o Eu Bonfim conversa com vários mundos sem se quebrar.
+
+Este arquivo é o “/etc/constitution” da Cidade Bonfim.
