@@ -69,5 +69,8 @@ Todo conteúdo deste repositório opera sob o Selo TÜV Simbólico da Auditoria 
 
 ---
 
+→ Consulte o índice oficial da Cidade Bonfim: [INDEX-CIDADE-BONFIM.md](INDEX-CIDADE-BONFIM.md)
+
+
 ## 📬 Contato
 Adicionar posteriormente.
