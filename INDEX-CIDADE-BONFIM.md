@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Índice Oficial da Cidade Bonfim"
+---
+
+# 🌐 Cidade Bonfim — Índice Oficial (TOC)
+
+
 🌐 Cidade Bonfim — Índice Oficial (TOC)
 Mapa completo da Arquitetura Simbólica, Operacional e Ritual do Sistema Bonfim
 
