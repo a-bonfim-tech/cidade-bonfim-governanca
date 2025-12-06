@@ -1,0 +1,27 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="#050816"/>
+  <text x="80" y="170" fill="#00ffc8" font-family="Inter, monospace" font-size="64" font-weight="bold">
+    CIDADE BONFIM
+  </text>
+  <text x="80" y="240" fill="#9ca3af" font-family="Inter, monospace" font-size="32">
+    Sistema de Governança TPE · IAM · Dreieinheit
+  </text>
+
+  <rect x="80" y="300" width="1000" height="200" rx="20" fill="none" stroke="#00ffc8" stroke-width="2"/>
+  
+  <text x="130" y="360" fill="#00ffc8" font-family="Inter, monospace" font-size="28">TPE</text>
+  <text x="120" y="395" fill="#9ca3af" font-family="Inter, monospace" font-size="16">Decisão Estruturada</text>
+
+  <text x="380" y="360" fill="#00ffc8" font-family="Inter, monospace" font-size="28">IAM</text>
+  <text x="360" y="395" fill="#9ca3af" font-family="Inter, monospace" font-size="16">Identidade · Acesso</text>
+
+  <text x="640" y="360" fill="#00ffc8" font-family="Inter, monospace" font-size="28">Dreieinheit</text>
+  <text x="610" y="395" fill="#9ca3af" font-family="Inter, monospace" font-size="16">Ética · Consistência · Cuidado</text>
+
+  <text x="950" y="360" fill="#00ffc8" font-family="Inter, monospace" font-size="28">C3</text>
+  <text x="900" y="395" fill="#9ca3af" font-family="Inter, monospace" font-size="16">Cidade · Cloud · Corpo</text>
+
+  <line x1="220" y1="350" x2="350" y2="350" stroke="#00ffc8" stroke-width="2"/>
+  <line x1="490" y1="350" x2="620" y2="350" stroke="#00ffc8" stroke-width="2"/>
+  <line x1="800" y1="350" x2="930" y2="350" stroke="#00ffc8" stroke-width="2"/>
+</svg>
