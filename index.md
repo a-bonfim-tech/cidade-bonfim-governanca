@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Cidade Bonfim"
 ---
+
 
 <p align="center">
   <img src="arquivos/imagens/cidade_bonfim_logo.svg" alt="Cidade Bonfim Logo" width="320">
