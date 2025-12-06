@@ -1,0 +1,12 @@
+title: "Cidade Bonfim"
+description: "Sistema de Governança TPE + IAM + Dreieinheit"
+theme: minima
+
+# Páginas que aparecem no menu do topo
+header_pages:
+  - index.md
+  - INDEX-CIDADE-BONFIM.md
+
+# Opções visuais básicas
+show_excerpts: false
+markdown: kramdown
