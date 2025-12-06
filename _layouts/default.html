@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} – Cidade Bonfim</title>
+
+  {% seo %}
+
+  <link rel="stylesheet" href="{{ '/assets/css/bonfim.css' | relative_url }}">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">Cidade Bonfim</a></h1>
+    <p class="site-subtitle">Governança · TPE · IAM · Dreieinheit</p>
+  </header>
+
+  <main class="content-container">
+    <article class="page-content">
+      {{ content }}
+    </article>
+
+    <aside class="sidebar">
+      <nav>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/INDEX-CIDADE-BONFIM.html' | relative_url }}">Índice Geral</a></li>
+          <li><a href="{{ '/wiki' | relative_url }}">Wiki</a></li>
+          <li><a href="{{ '/arquivos/pdfs' | relative_url }}">PDFs</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Cidade Bonfim © {{ site.time | date: '%Y' }}</p>
+  </footer>
+
+</body>
+</html>
