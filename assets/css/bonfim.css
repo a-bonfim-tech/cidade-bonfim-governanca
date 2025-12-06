@@ -1,0 +1,105 @@
+/* PALETA */
+/* Preto profundo, cinza grafite, ciano neon */
+:root {
+  --bg: #0b0d0f;
+  --text: #d8dee9;
+  --accent: #00ffc8;
+  --card: #15181c;
+  --border: #23272e;
+  --link: #62ffe7;
+}
+
+/* RESET */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+/* HEADER */
+.site-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #0d1117;
+  border-bottom: 1px solid var(--accent);
+}
+
+.site-title a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.site-subtitle {
+  color: var(--link);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+/* LAYOUT GERAL */
+.content-container {
+  display: flex;
+  max-width: 1300px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.page-content {
+  flex: 3;
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex: 1;
+  background: #101214;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  height: fit-content;
+  position: sticky;
+  top: 1.5rem;
+}
+
+.sidebar h3 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--link);
+}
+
+.sidebar a:hover {
+  color: var(--accent);
+}
+
+/* TEXTOS */
+h1, h2, h3, h4 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #8f9ba8;
+  font-size: 0.85rem;
+}
