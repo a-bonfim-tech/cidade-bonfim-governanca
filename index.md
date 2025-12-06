@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="arquivos/imagens/cidade_bonfim_capa.png" alt="Capa Cidade Bonfim" width="900">
+</p>
+
+
 ---
 layout: default
 title: "Cidade Bonfim"
