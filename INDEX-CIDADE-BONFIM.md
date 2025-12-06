@@ -1,7 +1,8 @@
 ---
-layout: page
-title: "Índice Oficial da Cidade Bonfim"
+layout: default
+title: "Cidade Bonfim"
 ---
+
 
 # 🌐 Cidade Bonfim — Índice Oficial (TOC)
 
