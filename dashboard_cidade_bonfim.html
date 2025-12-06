@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard – Cidade Bonfim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bonfim.css">
+  <style>
+    .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .dash-card {
+      background: #15181c;
+      border-radius: 10px;
+      border: 1px solid #23272e;
+      padding: 1.2rem 1.4rem;
+    }
+    .dash-card h2 {
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      border: 1px solid #00ffc8;
+      color: #00ffc8;
+      margin-right: 0.3rem;
+    }
+    .status-ok { color: #00ffc8; }
+    .status-risk { color: #ffdf6b; }
+    .status-block { color: #ff6b6b; }
+    .dash-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.3rem 0 0;
+      font-size: 0.85rem;
+    }
+    .dash-list li {
+      margin-bottom: 0.25rem;
+    }
+    .small-label {
+      font-size: 0.75rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title"><a href="./">Cidade Bonfim</a></h1>
+    <p class="site-subtitle">Dashboard de Governança · Estado Atual</p>
+  </header>
+
+  <main class="content-container">
+    <article class="page-content">
+      <h1>Dashboard – Estado do Sistema</h1>
+
+      <p class="small-label">Visão rápida do estado TPE, IAM, Dreieinheit, Rituais e C3 Bonfim.</p>
+
+      <div class="dash-grid">
+
+        <section class="dash-card">
+          <h2>TPE – Decisão</h2>
+          <span class="tag">Tecnologia</span>
+          <span class="tag">Pessoas</span>
+          <span class="tag">Estratégia</span>
+          <ul class="dash-list">
+            <li>• Rever decisões que pesam mais na emoção do que na estratégia.</li>
+            <li>• Registrar no Patch Diário uma decisão TPE por dia.</li>
+          </ul>
+        </section>
+
+        <section class="dash-card">
+          <h2>IAM – Personas</h2>
+          <ul class="dash-list">
+            <li>• Bonfim_Cyber – <span class="status-ok">OK</span></li>
+            <li>• Bonfim_Cidade – <span class="status-ok">OK</span></li>
+            <li>• Bonfim_Fluffer – <span class="status-risk">RISK (monitorar limites)</span></li>
+            <li>• Bonfim_Humanitário – <span class="status-risk">RISK (cuidado com sobrecarga)</span></li>
+          </ul>
+        </section>
+
+        <section class="dash-card">
+          <h2>Dreieinheit – Auditoria</h2>
+          <ul class="dash-list">
+            <li>• Ética – <span class="status-ok">OK</span></li>
+            <li>• Consistência – <span class="status-risk">RISK (rever promessas antigas)</span></li>
+            <li>• Cuidado – <span class="status-risk">RISK (reforçar descanso)</span></li>
+          </ul>
+        </section>
+
+        <section class="dash-card">
+          <h2>Rituais</h2>
+          <ul class="dash-list">
+            <li>• Espaço da Oração – recomendado antes de decisões grandes.</li>
+            <li>• Confessionário – registrar 1 evento-chave do dia.</li>
+            <li>• CDV – aplicar em algo que está em loop mental.</li>
+          </ul>
+        </section>
+
+        <section class="dash-card">
+          <h2>C3 Bonfim</h2>
+          <ul class="dash-list">
+            <li>• Corpo – checar sono, alimentação, hidratação.</li>
+            <li>• Cloud – revisar backups e organização de arquivos.</li>
+            <li>• Cidade – revisar 1 documento da Wiki por dia.</li>
+          </ul>
+        </section>
+
+        <section class="dash-card">
+          <h2>Hotfix do Dia</h2>
+          <p class="small-label">Pequeno ajuste com grande impacto.</p>
+          <ul class="dash-list">
+            <li>• Definir horário de encerrar telas.</li>
+            <li>• Escolher 1 tarefa realista e concluí-la.</li>
+          </ul>
+        </section>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <nav>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="INDEX-CIDADE-BONFIM.html">Índice Geral</a></li>
+          <li><a href="wiki">Wiki</a></li>
+          <li><a href="arquivos/pdfs">PDFs</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Cidade Bonfim © Dashboard</p>
+  </footer>
+
+</body>
+</html>
