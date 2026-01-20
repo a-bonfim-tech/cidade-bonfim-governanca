@@ -53,7 +53,11 @@ Infraestrutura simbólico-técnica:
 - Ritual CDV  
 - Portas de Retorno  
 - Mapa 3×5  
-- Canal Torrent Hacker Ético  
+- Canal Torrent Hacker Ético
+
+---
+
+![Docs Lint](https://github.com/a-bonfim-tech/cidade-bonfim-governanca/actions/workflows/docs-lint.yml/badge.svg)
 
 ---
 
