@@ -1,0 +1,28 @@
+name: Monthly Governance Report
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # dia 1, 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cli/cli@v2
+      - name: Generate report
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+          ./scripts/generate_report.sh
+      - name: Commit report
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add reports/
+          git commit -m "reports: monthly governance snapshot" || echo "No changes"
+          git push
+

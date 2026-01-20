@@ -17,6 +17,18 @@ Tudo isto compõe um sistema vivo, auditável, narrativo e funcional.
 
 ---
 
+## Diretrizes de Governança Documental
+
+Este repositório adota diretrizes formais para inclusão ética de conteúdo, com foco em governança, auditoria e responsabilidade humana no uso de IA, alinhadas a práticas DevSecOps.
+
+- Português (PT): docs/inclusao-pt.md
+- English (EN): docs/ethical-inclusion-en.md
+- Deutsch (DE): docs/ethische-einbindung-de.md
+
+Estas diretrizes são referência obrigatória para contribuições documentais e revisões correlatas.
+
+---
+
 ## 📌 Núcleos do Sistema
 
 ### **1. Manifesto**
@@ -58,6 +70,18 @@ Infraestrutura simbólico-técnica:
 ---
 
 ![Docs Lint](https://github.com/a-bonfim-tech/cidade-bonfim-governanca/actions/workflows/docs-lint.yml/badge.svg)
+
+---
+
+## Diretrizes de Governança Documental
+
+Este repositório adota diretrizes formais para inclusão ética de conteúdo, com foco em governança, auditoria e responsabilidade humana no uso de IA, alinhadas a práticas DevSecOps.
+
+- **Português (PT):** docs/inclusao-pt.md
+- **English (EN):** docs/ethical-inclusion-en.md
+- **Deutsch (DE):** docs/ethische-einbindung-de.md
+
+Estas diretrizes são referência obrigatória para contribuições documentais e revisões correlatas.
 
 ---
 

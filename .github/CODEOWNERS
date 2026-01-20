@@ -1,0 +1,29 @@
+# Governança de Código e Documentação
+
+# Documentação e Governança
+/docs/                       @a-bonfim-tech
+CHECKLIST.md                 @a-bonfim-tech
+CONTRIBUTING.md              @a-bonfim-tech
+COMPLIANCE.md                @a-bonfim-tech
+
+# Workflows, templates e políticas
+.github/workflows/           @a-bonfim-tech
+.github/ISSUE_TEMPLATE/      @a-bonfim-tech
+.github/pull_request_template.md @a-bonfim-tech
+
+# Raiz
+*                            @a-bonfim-tech
+
+# Raiz do repositório
+
+# Outros Co-Owners serão integrados em conformidade dos padrões éticos usados para autorização. Trânsitos únicos de inserção:
+ - direito herdado ou adiquirido garantido por análise e histórico  biográfico, verificação de conformidade, validação e entrega do resultado em formato binário;
+ - convite por parte detentora de autorização com este fim;
+ - avaliação submetida aos críterios exigidos;
+ - portador de token verificável para confirmação, autenticação e com resultado  auditável.
+
+
+# tokens:
+ - algo que você é;
+ - algo que você tem;
+ - ética

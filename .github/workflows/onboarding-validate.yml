@@ -1,0 +1,28 @@
+name: Onboarding Validation
+
+on:
+  pull_request:
+    branches: [ refactor/fundacao-governanca ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          for f in ONBOARDING.md CHECKLIST.md CONTRIBUTING.md COMPLIANCE.md AUDIT.md; do
+            test -f "$f"
+          done
+
+      - name: Check docs exist
+        run: |
+          test -f docs/inclusao-pt.md
+          test -f docs/ethical-inclusion-en.md
+          test -f docs/ethische-einbindung-de.md
+
+      - name: Check Pages index
+        run: |
+          test -f docs/index.md
+
