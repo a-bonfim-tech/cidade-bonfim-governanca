@@ -1,0 +1,19 @@
+name: Security Baseline
+
+on:
+  pull_request:
+    branches:
+      - refactor/fundacao-governanca
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify signed commits (best-effort)
+        run: |
+          git log --show-signature -1 || true
+      - name: Secret patterns scan (basic)
+        run: |
+          ! grep -RIn "(AKIA|BEGIN PRIVATE KEY|password\s*=)" .
+
