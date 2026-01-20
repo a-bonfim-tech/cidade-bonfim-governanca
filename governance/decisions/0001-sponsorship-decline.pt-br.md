@@ -1,6 +1,6 @@
 # Decision Log 0001 (PT-BR) — Recusa de Patrocínio antes da Maturidade do Baseline
 
-**Canonical (EN):** `0001-sponsorship-decline.md`
+**Canonical (EN):** `governance/decisions/0001-sponsorship-decline.md`
 **Language:** PT-BR
 **Status:** Translation — sem alteração de intenção, escopo ou critérios.
 
