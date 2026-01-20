@@ -17,6 +17,17 @@ Tudo isto compõe um sistema vivo, auditável, narrativo e funcional.
 
 ---
 
+## Governance Decisions (Decision Logs)
+
+Auditable Decision Logs (DLs) are maintained under `governance/decisions/`.
+
+Start here:
+
+* Index: `governance/decisions/README.md`
+* DL-0001: `governance/decisions/0001-sponsorship-decline.md` (EN) — with controlled translations (PT-BR, DE)
+
+---
+
 ## 📌 Núcleos do Sistema
 
 ### **1. Manifesto**
