@@ -1,6 +1,6 @@
 # Entscheidungsprotokoll 0001 (DE) — Ablehnung von Sponsoring vor Baseline-Reife
 
-**Kanonisch (EN):** `0001-sponsorship-decline.md`
+**Kanonisch (EN):** `governance/decisions/0001-sponsorship-decline.md`
 **Sprache:** Deutsch
 **Status:** Übersetzung — keine Änderung von Intention, Umfang oder Kriterien.
 
