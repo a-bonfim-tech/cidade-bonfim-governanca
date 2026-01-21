@@ -64,6 +64,3 @@ Os manifestos, rituais, sistemas e símbolos são mantidos em arquivos Markdown 
 
 - v0.1.0-governance-scope (signed tag + changelog): https://github.com/a-bonfim-tech/cidade-bonfim-governanca/releases/tag/v0.1.0-governance-scope
 
-## Governance Baselines (audit-ready)
-
-- v0.1.0-governance-scope (signed tag + release): https://github.com/a-bonfim-tech/cidade-bonfim-governanca/releases/tag/v0.1.0-governance-scope
