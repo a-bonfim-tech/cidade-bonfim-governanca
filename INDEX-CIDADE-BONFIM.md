@@ -167,3 +167,7 @@ Cuidado
 - [C3 Bonfim – Infraestrutura Simbólica](arquivos/pdfs/cidade_bonfim_c3_bonfim.pdf)  
 - [Símbolos e Mapas – Cidade Bonfim](arquivos/pdfs/cidade_bonfim_simbolos.pdf)  
 
+
+## Governance Baselines (audit-ready)
+
+- v0.1.0-governance-scope (signed tag + release): https://github.com/a-bonfim-tech/cidade-bonfim-governanca/releases/tag/v0.1.0-governance-scope
