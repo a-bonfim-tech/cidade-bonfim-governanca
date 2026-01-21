@@ -17,6 +17,14 @@ Tudo isto compõe um sistema vivo, auditável, narrativo e funcional.
 
 ---
 
+## Audit Portal (Governança)
+
+- Endpoint Governance Policy (PT-BR): `governance/policies/POLICY_ENDPOINT_GOVERNANCE.pt-BR.md`
+- Endpoint Governance Policy (DE): `governance/policies/POLICY_ENDPOINT_GOVERNANCE.de-DE.md`
+- Governance Changelog: `governance/CHANGELOG_GOVERNANCE.md`
+- Endpoint Baseline Evidence (Redacted): `governance/evidence/EVIDENCE_ENDPOINT_BASELINE_2026-01-21.md`
+- Decision Logs Index (Pages): `docs/governance/decisions/index.md`
+
 ## Governance Decisions (Decision Logs)
 
 Auditable Decision Logs (DLs) are maintained under `governance/decisions/`.
