@@ -101,3 +101,8 @@ E-mail: u3169808912@gmail.com
 ## Governance scope
 
 See: governance/OPERATIONAL_SCOPE.md
+
+## Evidence Portal
+
+See consolidated, audit-ready evidence:  
+docs/evidence/EVIDENCE_PORTAL.md
