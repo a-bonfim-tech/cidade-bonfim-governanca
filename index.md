@@ -59,3 +59,7 @@ Só depois da auditoria um elemento é integrado ao sistema.
 Este portal é a camada pública da Cidade Bonfim.  
 Os manifestos, rituais, sistemas e símbolos são mantidos em arquivos Markdown dentro deste repositório, seguindo a Constituição Pessoal Bonfim, a Governança TPE e a Dreieinheit.
 
+
+## Governance Baselines (audit-ready)
+
+- v0.1.0-governance-scope (signed tag + changelog): https://github.com/a-bonfim-tech/cidade-bonfim-governanca/releases/tag/v0.1.0-governance-scope
