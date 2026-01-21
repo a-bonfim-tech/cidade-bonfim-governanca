@@ -97,3 +97,7 @@ Todo conteúdo deste repositório opera sob o Selo TÜV Simbólico da Auditoria 
 
 ## 📬 Contato
 E-mail: u3169808912@gmail.com
+
+## Governance scope
+
+See: governance/OPERATIONAL_SCOPE.md
