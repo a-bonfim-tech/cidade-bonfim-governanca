@@ -1,0 +1,38 @@
+%% Árvore Genealógica Bonfim/Bomfim - Sergipe
+graph TD
+    %% Geração de Origem
+    J1[João de Bonfim / Bomfim<br>Portugal ~ XVII-XVIII]
+
+    %% Segunda geração
+    M1[Manuel de Bonfim<br>Bahia/Pernambuco ~1800]
+    J1 --> M1
+
+    %% Terceira geração
+    A1[Antônio de Bonfim (1805)]
+    J2[José de Bonfim (1810)]
+    M1 --> A1
+    M1 --> J2
+
+    %% Filhos de Antônio
+    JA[João Antônio de Bonfim (1830)]
+    F1[Francisco de Bonfim (1835)]
+    A1 --> JA
+    A1 --> F1
+
+    %% Filhos de José
+    MJ[Manuel José de Bonfim (1838)]
+    MB[Maria Bonfim (1840)]
+    J2 --> MJ
+    J2 --> MB
+
+    %% Quarta geração
+    AJ[Antônio João Bonfim (1860)]
+    JA2[José Antônio Bonfim (1865)]
+    JA --> AJ
+    JA --> JA2
+
+    MJ2[Joaquim Manuel Bonfim (1862)]
+    MI[Maria Isabel Bonfim (1868)]
+    MJ --> MJ2
+    MJ --> MI
+
