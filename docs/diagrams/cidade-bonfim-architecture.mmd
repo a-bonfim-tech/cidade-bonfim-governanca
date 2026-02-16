@@ -1,0 +1,42 @@
+flowchart TB
+
+  subgraph PRINCIPLES
+    P1["Governance Before Action"]
+    P2["Ongoing Accountability"]
+    P3["Evidence Preserved"]
+  end
+
+  subgraph CORE
+    TPE["TPE: Technology · People · Strategy"]
+    IAM["IAM: Internal Identity & Access Management"]
+  end
+
+  subgraph GOVERNANCE
+    POL["Policies"]
+    ADR["Decision Logs"]
+    CHG["Governance Changelog"]
+  end
+
+  subgraph EVIDENCE
+    EP["Evidence Portal"]
+    LOG["Audit Trail / Logs"]
+  end
+
+  subgraph INFRA
+    BACK["Backend"]
+    FRONT["Frontend"]
+    EDGE["Edge Layer"]
+  end
+
+  P1 --> TPE
+  P2 --> IAM
+  P3 --> EP
+
+  TPE --> POL
+  IAM --> ADR
+  POL --> EP
+  ADR --> LOG
+
+  TPE --> BACK
+  IAM --> FRONT
+  EDGE --> BACK
