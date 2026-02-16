@@ -14,6 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,13 +25,17 @@ jobs:
         uses: pandoc/actions/setup@v1
 
       - name: Install LaTeX
-        run: sudo apt-get update && sudo apt-get install -y texlive-xetex
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex
 
       - name: Build PDF
         run: |
           pandoc docs/manifesto/MANIFESTO.md \
             -o MANIFESTO.pdf \
-            --pdf-engine=xelatex
+            --pdf-engine=xelatex \
+            --metadata title="Cidade Bonfim — Manifesto" \
+            --metadata author="Cidade Bonfim"
 
       - name: Generate SHA256
         run: |
@@ -39,5 +46,13 @@ jobs:
         with:
           name: cidade-bonfim-manifesto
           path: |
+            MANIFESTO.pdf
+            MANIFESTO.pdf.sha256
+
+      - name: Create Release (only on tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
             MANIFESTO.pdf
             MANIFESTO.pdf.sha256
