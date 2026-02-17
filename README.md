@@ -1,3 +1,7 @@
+![Release](https://img.shields.io/github/v/release/a-bonfim-tech/cidade-bonfim-governanca?style=for-the-badge)
+![License](https://img.shields.io/badge/license-Symbolic-blue?style=for-the-badge)
+![CI](https://img.shields.io/github/actions/workflow/status/a-bonfim-tech/cidade-bonfim-governanca/build-manifesto.yml?style=for-the-badge)
+
 # 🌐 Cidade Bonfim – Sistema de Governança TPE + IAM  
 Repositório oficial da Arquitetura Simbólica, Governança, Ritualística e Infraestrutura da Cidade Bonfim.
 
