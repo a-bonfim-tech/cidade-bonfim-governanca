@@ -1,0 +1,58 @@
+name: Build Manifesto PDF (Canonical)
+
+on:
+  push:
+    branches:
+      - main
+      - feat/readme-canon-diagrams-pdf-seal
+    paths:
+      - 'docs/manifesto/**'
+      - 'canon/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@v1
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex
+
+      - name: Build PDF
+        run: |
+          pandoc docs/manifesto/MANIFESTO.md \
+            -o MANIFESTO.pdf \
+            --pdf-engine=xelatex \
+            --metadata title="Cidade Bonfim — Manifesto" \
+            --metadata author="Cidade Bonfim"
+
+      - name: Generate SHA256
+        run: |
+          sha256sum MANIFESTO.pdf > MANIFESTO.pdf.sha256
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cidade-bonfim-manifesto
+          path: |
+            MANIFESTO.pdf
+            MANIFESTO.pdf.sha256
+
+      - name: Create Release (only on tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            MANIFESTO.pdf
+            MANIFESTO.pdf.sha256
