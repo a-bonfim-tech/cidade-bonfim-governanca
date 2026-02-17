@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="40">
+  <rect width="400" height="40" fill="#1a1a1a"/>
+  <text x="20" y="25" fill="#00ffcc" font-family="monospace" font-size="16">
+    SHA256 Integrity Verified
+  </text>
+</svg>
